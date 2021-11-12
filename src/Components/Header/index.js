@@ -2,6 +2,7 @@ import React from 'react'
 import { Container } from './styles'
 
 const Header = () => {
+
     return (
         <Container>         
             <div className="play">
@@ -10,7 +11,18 @@ const Header = () => {
                 </svg>
             </div>
 
-            <ul>
+            <ul className="desktop">
+                <li><a href="#">JOGOS</a></li>
+                <li><a href="#">CATEGORIAS</a></li>
+                <li><a href="#">PUBLISHERS</a></li>
+            </ul>
+
+            <ul className="mobile">
+                
+                <span></span>
+                <span></span>
+                <span></span>
+
                 <li><a href="#">JOGOS</a></li>
                 <li><a href="#">CATEGORIAS</a></li>
                 <li><a href="#">PUBLISHERS</a></li>
