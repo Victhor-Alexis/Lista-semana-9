@@ -1,7 +1,8 @@
 import styled from "styled-components"
 
 export const Container = styled.div`
-    /*width: 20rem;
+    max-width: 20rem;
+    width: 100%;
     height: 14.5rem;
 
     img {
@@ -11,6 +12,13 @@ export const Container = styled.div`
     }
 
     div.text {
+        display: flex;
+        align-items: center;
+        color: white;
+        font-size: 18px;
         
-    }*/
+        svg {
+            margin-right: 0.4rem;
+        }
+    }
 `;

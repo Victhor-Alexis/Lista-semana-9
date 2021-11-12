@@ -5,7 +5,14 @@ import { Container } from './styles'
 const GamesContainer = () => {
     return (
         <Container>
-            <Game/>
+            <div className="flexbox">
+                <Game/>
+                <Game/>
+                <Game/>
+                <Game/>
+                <Game/>
+                <Game/>
+            </div>
         </Container>
     )
 }

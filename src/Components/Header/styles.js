@@ -6,8 +6,7 @@ export const Container = styled.header`
     height: 4.5rem;
     align-items: center;
     padding: 0 8%;
-    position: relative;
-    top: 3.75rem;
+    margin-top: 3.75rem;
     margin-bottom: 7.2rem;
 
     ul {

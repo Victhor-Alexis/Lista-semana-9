@@ -2,8 +2,10 @@ import styled from "styled-components"
 
 export const Container = styled.div`
     display: inline-block;
-    width: 33%;
-    height: 25vw;
+    max-width: 39.75rem;
+    width: 100%;
+    height: 31rem;
+    //height: 25vw;
     min-height: 22rem;
     min-width: 28rem;
     margin-left: 10%;

@@ -2,5 +2,13 @@ import styled from 'styled-components'
 
 export const Container = styled.div` 
     display: inline-block;
-    max-width: 44.7rem;
+    vertical-align: top;
+    width: 37%;
+    margin: 0 5rem;
+
+    div.flexbox {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
 `;
