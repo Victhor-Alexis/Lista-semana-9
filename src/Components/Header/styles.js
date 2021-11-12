@@ -5,9 +5,10 @@ export const Container = styled.header`
     width: 100%;
     height: 4.5rem;
     align-items: center;
-    padding: 0 10rem;
+    padding: 0 8%;
     position: relative;
     top: 3.75rem;
+    margin-bottom: 7.2rem;
 
     ul {
         list-style-type: none;
