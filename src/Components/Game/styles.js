@@ -2,9 +2,13 @@ import styled from "styled-components"
 
 export const Container = styled.div`
     width: 20rem;
-    height: 14rem;
+    height: 15rem;
     margin-bottom: 2rem;
-    border: 1px solid green;
+    cursor: pointer;
+
+    .selected{
+        border: 2px solid greenyellow;
+    }
 
     img {
         width: 100%;
@@ -17,13 +21,11 @@ export const Container = styled.div`
         display: flex;
         color: white;
         font-size: 18px;
-        margin: 1% 0 0 7%;
+        margin: 0.5% 0 0 7%;
+        padding: 0.5rem 0;
 
         svg {
             margin-right: 0.4rem;
         }
-    }
-
-    @media screen and (max-width: 1800px) {
     }
 `;
