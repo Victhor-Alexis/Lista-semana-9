@@ -5,6 +5,7 @@ export const Container = styled.div`
     height: 15rem;
     margin-bottom: 2rem;
     cursor: pointer;
+    border: none;
 
     .selected{
         border: 2px solid greenyellow;

@@ -12,9 +12,9 @@ const Header = () => {
             </div>
 
             <ul className="desktop">
-                <li><a href="#">JOGOS</a></li>
-                <li><a href="#">CATEGORIAS</a></li>
-                <li><a href="#">PUBLISHERS</a></li>
+                <li><a href="/">JOGOS</a></li>
+                <li><a href="/">CATEGORIAS</a></li>
+                <li><a href="/">PUBLISHERS</a></li>
             </ul>
 
             <ul className="mobile">
@@ -23,9 +23,9 @@ const Header = () => {
                 <span></span>
                 <span></span>
 
-                <li><a href="#">JOGOS</a></li>
-                <li><a href="#">CATEGORIAS</a></li>
-                <li><a href="#">PUBLISHERS</a></li>
+                <li><a href="/">JOGOS</a></li>
+                <li><a href="/">CATEGORIAS</a></li>
+                <li><a href="/">PUBLISHERS</a></li>
             </ul>
 
             <div className="lupa">

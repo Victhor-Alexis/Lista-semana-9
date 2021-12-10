@@ -1,10 +1,26 @@
+import { useEffect, useState } from 'react'
 import Button from '../Button'
 import { Container } from './styles'
+import { useDynimicityContext } from '../../Context/useDynimicityContext.js'
+import { api } from "../../Services/Api";
 
 const SelectedGame = () => {
+
+    const {gameIndex} = useDynimicityContext();
+    const [game, setGame] = useState({})
+    
+    useEffect(() => {
+        if (gameIndex !== -1) {
+            api.get(`/games/show/${gameIndex}`).then((response) => {
+                setGame(response.data)
+            })
+        }
+    }, [gameIndex]);
+    
+
     return (
         <Container>
-            <img/>
+            <img src={`http://localhost:3000${game.photo_url}`} alt="Game_selected"/>
 
             <div className="holder">
                 <div className="block1">
